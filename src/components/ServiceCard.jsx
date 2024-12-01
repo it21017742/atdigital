@@ -5,7 +5,7 @@ const ServiceCard = ({ title, description, imageUrl, imageFirst }) => {
     <div
       className={`flex flex-col sm:flex-row ${
         imageFirst ? "sm:flex-row" : "sm:flex-row-reverse"
-      } gap-50 items-center sm:items-start my-auto min-w-[240px] w-full sm:w-auto px-10`} // Added horizontal padding (px-5)
+      } gap-50 items-center sm:items-start my-auto min-w-[240px] w-full sm:w-auto px-10 lg:mt-10 md:mt-10 sm:mt-5`} // Added horizontal padding (px-5)
     >
       {/* Image Section */}
       <img
